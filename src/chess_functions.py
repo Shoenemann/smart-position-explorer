@@ -2,6 +2,7 @@
 import chess
 import chess.pgn
 import io
+import pandas as pd
 
 def pgn_to_fen(pgn: str):
     """
